@@ -21,6 +21,21 @@ public class Traductor extends javax.swing.JFrame {
     public Traductor() {
         initComponents();
         diccionario.put("casa","house");
+        diccionario.put("comida", "food");
+        diccionario.put("perro", "dog");
+        diccionario.put("gato", "cat");
+        diccionario.put("sol", "sun");
+        diccionario.put("luna", "moon");
+        diccionario.put("agua", "water");
+        diccionario.put("fuego", "fire");
+        diccionario.put("amigo", "friend");
+        diccionario.put("libro", "book");
+        diccionario.put("cielo", "sky");
+        diccionario.put("tierra", "earth");
+        diccionario.put("arbol", "tree");
+        diccionario.put("manzana", "apple");
+        diccionario.put("coche", "car");
+
     }
 
     /**
@@ -62,20 +77,17 @@ public class Traductor extends javax.swing.JFrame {
             .addGroup(jDesktopPane1Layout.createSequentialGroup()
                 .addGroup(jDesktopPane1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jDesktopPane1Layout.createSequentialGroup()
+                        .addGap(156, 156, 156)
+                        .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 87, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jDesktopPane1Layout.createSequentialGroup()
                         .addGap(154, 154, 154)
                         .addComponent(jbTraducir))
                     .addGroup(jDesktopPane1Layout.createSequentialGroup()
-                        .addGap(136, 136, 136)
+                        .addGap(118, 118, 118)
                         .addGroup(jDesktopPane1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jtIngresar, javax.swing.GroupLayout.PREFERRED_SIZE, 126, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jDesktopPane1Layout.createSequentialGroup()
-                                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 87, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(19, 19, 19)))))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jDesktopPane1Layout.createSequentialGroup()
-                .addGap(0, 94, Short.MAX_VALUE)
-                .addComponent(jtMostrar, javax.swing.GroupLayout.PREFERRED_SIZE, 209, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(85, 85, 85))
+                            .addComponent(jtMostrar, javax.swing.GroupLayout.PREFERRED_SIZE, 155, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jtIngresar, javax.swing.GroupLayout.PREFERRED_SIZE, 155, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                .addContainerGap(133, Short.MAX_VALUE))
         );
         jDesktopPane1Layout.setVerticalGroup(
             jDesktopPane1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -87,7 +99,7 @@ public class Traductor extends javax.swing.JFrame {
                 .addComponent(jbTraducir)
                 .addGap(18, 18, 18)
                 .addComponent(jtMostrar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 115, Short.MAX_VALUE))
+                .addGap(0, 47, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
